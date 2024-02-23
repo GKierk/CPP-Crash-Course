@@ -1,0 +1,19 @@
+#include "step.h"
+
+namespace step
+{
+  int step_function(int x)
+  {
+    int result = 0;
+    if (x < 0)
+    {
+      result = -1;
+    }
+    else if (x > 0)
+    {
+      result = 1;
+    }
+
+    return result;
+  }
+}
