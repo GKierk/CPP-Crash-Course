@@ -3,8 +3,16 @@
 #include "step.h"
 using namespace std;
 
+int HelloWorld()
+{
+  cout << "Hello, World!" << endl;
+  return 0;
+}
+
 int main()
 {
+  HelloWorld();
+
   int the_answer = 42;
   int lucky_number = the_answer / 6;
   cout << "The lucky number is " << lucky_number << endl;
